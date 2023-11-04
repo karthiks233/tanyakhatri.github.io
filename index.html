@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><b> <a href="#header">Home</a></b></li>
+                <li><b><a href="#about">About</a></b></li>
+                <li><b> <a href="#Portfolio">Portfolio</a></b></li>
+                <li><b> <a href="#contact">Contact</a></b></li>   
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    
+    <div class="animated-text">Hi! I am Karthik</div>
+</div>
+<!-- -----about----- -->
+<div id="about"> 
+    <div class="about-col-1">
+        <h1 class=" sub-title">About me </h1><br>
+        <p>A textile designer with one year of experience working with Myntra
+            <br><br>
+            As a textile designer and fashion designer, I am make products related to sustainable fashion technology
+            <br><br>
+            I am an enthusiastic team player looking to secure a responsible career opportunity to fully utilize my training in fashion
+           
+        </p>
+    
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills:</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience:</p>
+            <p class="tab-links" onclick="opentab('Education')">Education:</p>
+            <p class="tab-links" onclick="opentab('Projects')">Projects:</p>
+            <p class="tab-links" onclick="opentab('Certificates')">Certificates:</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li> <span>• Programming tools:</span><br>Python(Numpy, Pandas, Scikit-learn, Flask, Plotly, Django), Tableau, Google Cloud Platform, MS Excel, Jira, R, Machine Learning, Natural Language Processing</li>
+                <li><span>• Databases:</span><br>MySQL, PostgreSQL, and MS SQL Server</li>
+                <li><span>• Business:</span><br>Design Thinking, Agile, SDLC, Data Analysis, Communication, Project Management, Critical Thinking, Presentation</li>
+                <li><span>• Interests:</span><br>Soccer player, Athlete(800m), Community Service, Host of a Marathon with a Footfall of 600 Members</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Experience">
+            <ul>
+                <li> <span>• Tata Consultancy Services, Chennai, India :</span></li>
+                <li><i>
+                    •	Streamlined pipelines between Audit and Developer teams through Process Improvement, increasing project quality audit efficiency by 50%
+                </i></li>
+                <li><i>
+                    •	Examined and established Risk Mitigation plans for 10 projects, increasing successful project outcomes by 45% within a year
+                </i></li>
+                <li><i>
+                    •	Established Agile processes by working with the leadership team to better team collaboration and ship features 30% faster
+                </i></li>
+
+                <li> <span>Northern Suites, Bangalore, India</span></li>
+                <li><i>•	Analyzed guest feedback data using Python regression to find service KPIs, improved service quality by 30%</i>&gt;</li>
+                <li><i>•	Optimized booking channels through data-driven pricing strategies, increased quarter 4 revenue by 2%</i></li>
+                <li><i>•	Performed internal data analysis using SQL and identified financial liabilities, reduced operations expenditure by 15%</i></li>
+                <li><i>•	Identified and Communicated CSAT and NPS to technical and non-technical stakeholders, resulting in 20% Business Growth</i></li>
+
+                <li><span> Folk Developers, Bangalore, India</span></li>
+                <li><i>• Inspected customer growth KPIs using Google Cloud Analytics querying over 20000 rows of customer records</i>&gt;</li>
+                <li><i>• Designed NLP-based Twitter sentiment analysis bot using Python, achieving 70% market trend accuracy, Link - GitHub</i>&gt;</li>
+                <li><i>• Utilized Plotly to craft interactive customer data dashboards, obtaining a 40% surge in customer growth over 3 months</i>&gt;</li>
+                <li><i>• Collaborated cross-functionally to scrape and analyze data for the 'Bhagavad Gita' chatbot development</i></li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+            <ul>
+            
+                <li> <span>NIFT, Jodhpur, India <br> August 2018 – August 2022 <br> Fashion technology</span></li>
+                <li><i>Textile </i></li>
+                <li><i>Weaving</i></li>
+                <li><i> Design</i></li>
+            </ul>
+        </div>  
+        <div class="tab-contents" id="Projects">
+            <ul>
+                <li> <span>Sleep Disorder Monitor</span></li>
+                <li><i>•	Detected non-healthy sleep data in patients using Python, integrating it remotely with sensors, with an accuracy of 80 %</i></li>
+                <li><i>•	Visualized sleep pattern data through Python and ThingSpeak API, displayed informative dashboards with Sleep pattern Information, slashing patient to doctor communication time by over 90%</i></li>
+                <li><i> Agile Development</i></li>
+            
+                <li> <span>Covid-19 Analysis</span></li>
+                <li><i>•	Extracted, cleaned and analysed Global Covid-19 data from open public data repositories, revealing a striking 23:1 ratio between cases and deaths from January 2020 to October 2020</i></li>
+                <li><i>•	Visualized sleep pattern data through Python and ThingSpeak API, displayed informative dashboards with Sleep pattern Information, slashing patient to doctor communication time by over 90%</i></li>
+                <li><i> •	Presented live dashboards on personal website, deployed time series analysis to predict availability of oxygen tanks for Covid-19 affected patients, utilized Python and Flask API to indicate availability information to over 500 people</i></li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Certificates">
+            <ul> 
+                <li><i>• Cognos TM1 10.1 Data Analysis(Code: 2027292)</i></li>
+                <li><i>• IBM Certified - Machine Learning Advanced Certification Training(Code: 2136390)</i></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--------------------------------------- Portfolio -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <div class="work-list">
+            <div class="work"> 
+                <img src="images/cloud.jpg">
+                <div class="layer">
+                    <h2>Cloud</h2>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work"><img src="images/H1B.png">
+                <div class="layer">
+                    <h2>H1B</h2>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work"> <img src="images/analytics.jpeg">
+                <div class="layer">
+                    <h2>Yoga</h2>
+                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                
+                </div>
+            </div>
+        </div>
+         <a href="#" class="btn">See more</a>
+    </div>     
+</div>
+
+
+<!--------------------------------------- Contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="class">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                        Contact  Me
+                </h1>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>  tanyakhatri879@gmail.com
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>   (+91)7014238228
+                </p>
+            </div>    
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/karthik-raja-b22459171/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/karthiks233/" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+            <a href="/Users/karthikraja/Documents/Programs/Portfolio/images/KarthikRaja_Resume.pdf" download="" class="btn btn2"> Download CV</a>
+            <!-- <div class="contact-right"></div>
+                <form>
+                    <input type="text" name="Name" placeholder="Karthik" required> 
+                </form> -->
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script> var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){tablink.classList.remove("active-link");}
+            for(tabcontent of tabcontents){tabcontent.classList.remove("active-tab");}
+               
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); }
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0px";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px"; 
+    }
+</script>
+
+            
+
+
+
+</body></html>  
